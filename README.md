@@ -19,4 +19,24 @@ Steering files allow you to include additional context and instructions in your 
 - **style.md** - Code style guidelines
 - **testing.ms** - Testing standards and practices
 
+
 These files are configured as global steering rules and will be included in Kiro's context to guide development across all your projects.
+
+## Setup Script
+
+Use the `setup-kiro.sh` script to automatically configure global steering files:
+
+```bash
+#!/bin/bash
+# setup-kiro.sh
+
+echo "Setting up AnyCompany Kiro Global Steering..."
+
+# Clone company steering
+git clone <URL to team global steering files here> ~/.kiro/company-steering
+
+# Symlink to global steering (updates auto-sync)
+ln -s ~/.kiro/company-steering/* ~/.kiro/steering/
+
+echo "Global steering configured!"
+```
