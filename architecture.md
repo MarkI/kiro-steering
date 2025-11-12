@@ -1,3 +1,8 @@
+---
+title: Architecture Standards
+inclusion: always
+---
+
 # architecture.md
 
 ## Design Principles

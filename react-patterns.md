@@ -1,3 +1,7 @@
+---
+title: React Development Guidelines
+inclusion: always
+---
 # React Development Guidelines
 
 ## Component Structure

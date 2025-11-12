@@ -1,3 +1,7 @@
+---
+title: Security Standards
+inclusion: always
+---
 # security.md
 
 ## Security Essentials

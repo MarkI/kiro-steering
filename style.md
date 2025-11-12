@@ -1,3 +1,7 @@
+---
+title: Code Style Standards
+inclusion: always
+---
 # style.md
 
 ## Code Formatting

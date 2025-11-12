@@ -1,3 +1,8 @@
+---
+title: Accessibility Standards
+inclusion: always
+---
+
 # Accessibility Standards
 
 ## Requirements

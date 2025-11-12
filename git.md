@@ -1,3 +1,7 @@
+---
+title: Git Conventions
+inclusion: always
+---
 # Git Conventions
 
 ## Commit Messages

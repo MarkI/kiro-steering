@@ -1,3 +1,7 @@
+---
+title: Naming Coventions
+inclusion: always
+---
 # Naming Conventions (All Languages)
 
 ## Universal Rules

@@ -1,3 +1,7 @@
+---
+title: Documentation Standards
+inclusion: always
+---
 # docs.md
 
 ## Code Documentation
