@@ -1,9 +1,9 @@
 ---
-title: Testing Standards
+title: Baseline Testing Standards
 inclusion: always
 ---
 
-# Testing Standards (All Languages)
+# Baseline Testing Standards (All Languages)
 
 ## Coverage
 - Minimum 80% coverage for business logic

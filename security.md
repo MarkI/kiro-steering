@@ -1,5 +1,5 @@
 ---
-title: Security Standards
+title: Base Security Standards
 inclusion: always
 ---
 # security.md
