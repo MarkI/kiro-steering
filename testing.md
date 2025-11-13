@@ -1,3 +1,8 @@
+---
+title: Testing Standards
+inclusion: always
+---
+
 # Testing Standards (All Languages)
 
 ## Coverage
