@@ -20,3 +20,4 @@ Example: `feat(auth): add OAuth2 support`
 - `develop` - integration branch
 - `feature/xxx` - new features
 - `fix/xxx` - bug fixes
+- `refactor/xxx` - refactoring of code

@@ -38,5 +38,10 @@ git clone <URL to team global steering files here> ~/.kiro/company-steering
 # Symlink to global steering (updates auto-sync)
 ln -sf ~/.kiro/company-steering/* ~/.kiro/steering/
 
+# if symlinks don't work the use hard links by running this command from the company-steering folder
+for f in *.md; do [ "$f" != "README.md" ] && ln -f "$(pwd)/$f" ~/.kiro/steering/; done
+
 echo "Global steering configured!"
 ```
+
+for f in *.md; do [ "$f" != "README.md" ] && ln -f "$(pwd)/$f" ~/.kiro/steering/; done
