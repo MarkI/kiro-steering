@@ -36,7 +36,7 @@ echo "Setting up AnyCompany Kiro Global Steering..."
 git clone <URL to team global steering files here> ~/.kiro/company-steering
 
 # Symlink to global steering (updates auto-sync)
-ln -s ~/.kiro/company-steering/* ~/.kiro/steering/
+ln -sf ~/.kiro/company-steering/* ~/.kiro/steering/
 
 echo "Global steering configured!"
 ```
