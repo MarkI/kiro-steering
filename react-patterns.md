@@ -1,6 +1,7 @@
 ---
 title: React Development Guidelines and Best Practices
-inclusion: always
+inclusion: fileMatch
+fileMatchPattern: "**/*.{tsx,jsx}"
 ---
 # React Development Guidelines
 
