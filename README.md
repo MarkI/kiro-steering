@@ -44,4 +44,3 @@ for f in *.md; do [ "$f" != "README.md" ] && ln -f "$(pwd)/$f" ~/.kiro/steering/
 echo "Global steering configured!"
 ```
 
-for f in *.md; do [ "$f" != "README.md" ] && ln -f "$(pwd)/$f" ~/.kiro/steering/; done
