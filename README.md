@@ -17,7 +17,7 @@ Steering files allow you to include additional context and instructions in your 
 - **react-patterns.md** - React patterns and best practices
 - **security.md** - Security best practices
 - **style.md** - Code style guidelines
-- **testing.ms** - Testing standards and practices
+- **testing.md** - Testing standards and practices
 
 
 These files are configured as global steering rules and will be included in Kiro's context to guide development across all your projects.
@@ -44,4 +44,3 @@ for f in *.md; do [ "$f" != "README.md" ] && ln -f "$(pwd)/$f" ~/.kiro/steering/
 echo "Global steering configured!"
 ```
 
-for f in *.md; do [ "$f" != "README.md" ] && ln -f "$(pwd)/$f" ~/.kiro/steering/; done
